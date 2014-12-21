@@ -1,8 +1,6 @@
 Neustar Guessing Game
 ===================
 
-----------
-
 Introduction
 -------------
 This is a responsive web application that allows the user to guess numbers from 1-20 and you are only allow up to 5 attempts.  To play all you need to do is click on the number you're guessing.  The web application is mobile friendly and will respond to portrait or landscape view (the buttons have more columns less rows in landscape view and the reverse for portrait view).  Enjoy!
