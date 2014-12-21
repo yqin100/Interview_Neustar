@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Neustar - Number Guessing Game - Unit Testing</title>
+
+        <link href="resources/css/qunit-1.16.0.css" rel="stylesheet">
+		<link href="resources/css/my.css" rel="stylesheet">
+    </head>
+    <body>
+      	<div id="qunit"></div>
+  		<div id="qunit-fixture">
+            <div class="mainPanel"> 
+            	<div id="results">	
+            		<h3 id="resultsText"></h3>
+					<button type="button" class="btn btn-primary" onclick="javascript: GameEngine.start();">Restart Game</button>
+            	</div>           
+				<div id="landscapeTest"></div>
+				<div id="portraitTest"></div>
+				<div id="landscape"></div>
+				<div id="portrait"></div>
+            </div>
+  		</div>
+        <script src="resources/js/jquery-1.11.1.min.js"></script>
+        <script src="resources/js/qunit-1.16.0.js"></script>
+        <script src="resources/js/my.js"></script>
+        <script src="resources/js/myTest.js"></script>
+    </body>
+</html>

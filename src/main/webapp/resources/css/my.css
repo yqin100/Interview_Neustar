@@ -1,0 +1,34 @@
+@media all and (orientation:landscape) {
+	#landscape {
+		display: block;
+	}
+	#portrait {
+		display: none;
+	}
+}
+
+@media all and (orientation:portrait) {
+	#landscape {
+		display: none;
+	}
+	#portrait {
+		display: block;
+	}
+}
+
+body {
+  padding-top: 50px;
+}
+
+.mainPanel {
+  padding: 10px 10px;
+  text-align: center;
+}
+
+table.numberTable {
+	width: 100%;
+}
+
+table.numberTable td {
+	padding: .5em;
+}
